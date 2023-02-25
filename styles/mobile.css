@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+    .main-container {
+        /* background-color: rgb(6, 125, 46); */
+        background: none;
+        height: 100vh;
+        /* width: 100%; */
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        position: initial;
+        margin: 0px;
+    
+    }
+
+    .left-container {
+        flex: 1;
+        height: 100%;
+        background-color: white;
+        padding: 0px;
+        padding: 30px 35px 70px 35px;
+        height: 100vh;
+    }
+
+    .form-field {
+        padding-bottom: 20px;
+    }
+
+    .green-revolution {
+        font-family: Roboto;
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    .acc-btn {
+        margin-bottom: 30px;
+    }
+    
+    .right-container {
+        padding: 30px 30px 70px 30px;
+
+    }
+
+    .signin {
+        margin-top: 30px;
+        box-shadow: 2px 4px 5px rgb(52, 92, 52);
+        transition: background-color, border-radius, color, 0.5s;
+    }
+
+    .signin:hover {
+        border-radius: 40px;
+        background-color: rgb(6, 125, 46);
+        color: white;
+    }
+
+    .right-header {
+        margin-top: 40px;
+        /* padding-right: 20px; */
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+
+
+
+}
+

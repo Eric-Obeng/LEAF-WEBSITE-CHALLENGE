@@ -1,0 +1,71 @@
+.right-container {
+    background-image: url("../Assets/interior-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+    background-color: white;
+    padding: 40px 75px 0px 75px;
+}
+
+.signin {
+    float: right;
+    padding: 10px 20px;
+    border: none;
+    color: rgb(6, 125, 46);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.right-header {
+    margin-top: 28px;
+    display: inline-block;
+    /* max-width: 100%; */
+    font-family: Roboto;
+    font-size: 55px;
+    line-height: 50px;
+    color: rgb(6, 125, 46);
+}
+
+.header {
+    margin-bottom: 200px;
+}
+
+.side-div {
+    display: inline-block;
+}
+
+.offers {
+    /* display: inline-block; */
+    background-color: rgba(234, 229, 222, 0.61);
+    backdrop-filter: blur(4px);
+    float: right;
+    margin-left: 100px;
+    text-align: left;
+    padding: 10px 20px;
+    width: 240px;
+}
+
+.offer-div {
+    display: grid;
+    grid-template-columns: 20px 1fr ;
+    margin-bottom: 7px;
+
+}
+
+.offer-hearder {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.offer-content {
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+.icon-img {
+    width: 15px;
+    filter: invert(88%) sepia(30%) saturate(5428%) hue-rotate(78deg) brightness(85%) contrast(64%);
+}
+
